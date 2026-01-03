@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+    * *Note:* You also need to ensure Tailwind is set up. If you used the Vite command above, you might need to run `npx tailwindcss init -p` and configure `tailwind.config.js` to look at your files:
+```javascript
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: { extend: {} },
+  plugins: [],
+}
