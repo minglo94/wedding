@@ -256,7 +256,7 @@ export default function App() {
 
         {/* VIEW: GRID */}
         {!loading && images.length > 0 && (
-            <div className="py-12 px-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="py-12 px-4 grid grid-cols-2 gap-6">
                 {images.map((img, idx) => (
                     <div key={img.id} className="group cursor-pointer">
                         <div className="bg-white p-3 pb-4 rounded-sm shadow-sm hover:shadow-xl transition-all duration-500 transform hover:-translate-y-1">
